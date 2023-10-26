@@ -30,3 +30,7 @@ git branch branch_name
 ```sh
 git branch -d branch_name
 ```
+**Слияние веток**
+```sh
+git merge branch_name
+```
