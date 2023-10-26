@@ -26,3 +26,7 @@ q (выход из меню просмотра коммитов);
 ```sh
 git branch branch_name
 ```
+**Удаление ветки**
+```sh
+git branch -d branch_name
+```
