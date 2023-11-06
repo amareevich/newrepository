@@ -38,3 +38,20 @@ git merge branch_name
 ```sh
 git merge --abort
 ```
+
+**Подключение к удаленному репозиторию**
+```sh
+git remote add origin 'https//:адрес репозитория'
+```
+**Добавление файлов на удаленный репозиторий**
+```sh
+git push -u origin branch_name
+```
+**Информация о призвязанном репозитории**
+```sh
+git remote -v
+```
+**Запрос изменений в файле с сервера**
+```sh
+git pull
+```
